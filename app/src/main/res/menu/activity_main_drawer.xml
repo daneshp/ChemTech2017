@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_discover"
+            android:icon="@drawable/ic_public_black_24dp"
+            android:title="Discover" />
+        <item
+            android:id="@+id/nav_speaker"
+            android:icon="@drawable/ic_record_voice_over_black_24dp"
+            android:title="Speaker" />
+
+        <item
+            android:id="@+id/nav_intern"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Internship" />
+
+        <item
+            android:id="@+id/nav_accommodation"
+            android:icon="@drawable/ic_hotel_black_24dp"
+            android:title="Accommodation" />
+
+        <item
+            android:id="@+id/nav_sponsor"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Sponsor" />
+    </group>
+
+    <item android:title="Inception">
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:title="About"/>
+            <item
+                android:id="@+id/nav_contact"
+                android:title="Contact" />
+            <item
+                android:id="@+id/nav_events"
+                android:title="Concurrent Events" />
+        </menu>
+    </item>
+
+</menu>
