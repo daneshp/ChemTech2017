@@ -1,20 +1,71 @@
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context="abyte.chemtech2017.InternshipFragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="abyte.chemtech2017.InternshipFragment">
+    android:layout_height="wrap_content">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Internship"
-        android:padding="8dp"
-        android:textColor="#fff"
-        android:background="@color/colorPrimary"
-        android:textSize="28sp"
-        android:id="@+id/internship_button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     tools:context="abyte.chemtech2017.InternshipFragment"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
 
-</RelativeLayout>
+            <TextView
+                android:id="@+id/para1"
+                android:layout_below="@id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/internship_text_para_1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="18sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/para2"
+                android:layout_below="@id/para1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/internship_text_para_2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="18sp"
+                android:typeface="normal"
+                />
+
+            <TextView
+                android:id="@+id/para3"
+                android:layout_below="@id/para2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/internship_text_para_3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="18sp"
+                android:typeface="normal"
+                />
+
+            <Button
+                android:id="@+id/internship_button"
+                android:layout_below="@id/para3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Register"
+                android:padding="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:textSize="28sp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+</ScrollView>

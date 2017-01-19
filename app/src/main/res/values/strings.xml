@@ -8,4 +8,20 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="internship_text_para_1">The Internship Initiative is the flagship event of Chemtech Student Outreach Program. It aims to provide a direct platform for students and secure internships in the best companies of the country. The interviews will be conducted by the HRs of the company from 14th February to 17th February.</string>
+
+    <string name="internship_text_para_2">The Initiative will take place in two stages. In the first stage, the students will be requested to send their resumes which will be screened by the interviewing panel. The selected students will then be personally interviewed by the HRs.
+
+Team Student Outreach Program ONLY serves as a link between the companies and the students. Students are requested to read through the rules and regulations carefully before registering.
+</string>
+
+    <string name="internship_text_para_3">Any last minute walk-ins shall not be tolerated.
+
+Please note that in order to be eligible to participate in the Internship Initiative, the students have to be registered in any of our other events (Prototype Exhibition, Poster Competition or Icon Lectures).</string>
+
+    <string name="about_text_para_1">The ‘Study Circle Initiative’ was launched in the early 80’s with the aim to expose the students to the latest global trends in process engineering by the visionary, Mr Jasu Shah, Founder and Chairman, Jasubhai Media Pvt Ltd. It was later revised in 2011 to ‘Student Outreach Program (SOP)’ and its charter was revised to ‘Developing Future Leaders’. CHEMTECH will organise the third edition of SOP concurrently during CHEMTECH World Expo 2017 from February 14 to 17, 2017 at Bombay Exhibition Grounds, Goregaon (East), Mumbai, India. </string>
+
+    <string name="about_text_para2">Student Outreach Program (SOP) is a one of a kind opportunity for young minds, pursuing the discipline of Chemical Engineering and other allied branches, to connect with stalwarts from their desired Fields that could possibly turn out to be a life changing experience. This is envisaged by conducting vivid events such as Icon Lectures, Poster Presentation, Prototype Exhibition and Internship Initiative.</string>
+
+
 </resources>

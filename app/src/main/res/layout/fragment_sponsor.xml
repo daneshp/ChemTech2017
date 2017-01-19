@@ -1,20 +1,20 @@
-<RelativeLayout
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="abyte.chemtech2017.SponsorFragment">
+    tools:context="abyte.chemtech2017.SponsorFragment"
+    android:orientation="horizontal">
 
-    <Button
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sponsor"
-        android:padding="8dp"
-        android:textColor="#fff"
-        android:background="@color/colorPrimary"
-        android:textSize="28sp"
-        android:id="@+id/sponsor_button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
-</RelativeLayout>
+        android:src="@drawable/support_partners_2017"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imageView2" />
+</LinearLayout>
+</HorizontalScrollView>
