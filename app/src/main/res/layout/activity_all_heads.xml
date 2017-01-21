@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="abyte.chemtech2017.AllHeadsActivity">
+
+<LinearLayout
+
+    android:id="@+id/activity_all_heads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/soumil_joshi"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/img"
+            android:text="Soumil Joshi"
+            android:textColor="#290288"
+            android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Student Convener" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Dwarkadas J. Sanghvi College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/rohit_agarwal"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Rohit Agarwal"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Head of Social Media" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Dwarkadas J. Sanghvi College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/anas_nandoliya"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Anas Nandoliya"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Graphics and Design" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Dwarkadas J. Sanghvi College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/maitri_vora"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Maitri Vora"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Treasurer" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Institute of Chemical Technology" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/dhawal_unune"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Dhawal Unune"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Head of Communications" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Institute of Chemical Technology" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/harsimran_bhamra"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Harsimran Bhamra"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Ambassador Relations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Dwarkadas J. Sanghvi College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/vatshal_bhanushali"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Vatshal Bhanushali"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Ambassador Relations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Thadomal Shahani Engineering College" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/ashutosh_karkare"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Ashutosh Karkare"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Ambassador Relations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Datta Meghe College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/rochana_dudwadkar"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Rochana Dudwadkar"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Ambassador Relations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Dwarkadas J. Sanghvi College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/pratik_khare"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Pratik Khare"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Ambassador Relations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Thadomal Shahani Engineering College" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/ankit_mishra"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Ankit Mishra"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Ambassador Relations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Datta Meghe College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/mrunal_sakharkar"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Mrunal Sakharkar"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Public Relations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Institute of Chemical Technology" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/saina_prabhu"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Saina Prabhu"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Public Relations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Institute of Chemical Technology" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/akshay_patkar"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Akshay Patkar"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Public Relations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Institute of Chemical Technology" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/drashtiy_mehta"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Drashty Mehta"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Public Relations" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Institute of Chemical Technology" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/aditya_shah"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Aditya Shah"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Data Logistics" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="K. J. Somaiya College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/arjun_mohan"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Arjun Mohan"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Data Logistics" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Dwarkadas J. Sanghvi College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/yash_khatanhar"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Yash Khatanhar"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Data Logistics" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Thadomal Shahani Engineering College" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/enayatali_beguwala"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Enayatali Beguwala"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Data Logistics" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Bharati Vidyapeeth College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/nandan_singh_thakur"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Nandan Thankur"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Physical Logistics" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Institute of Chemical Technology" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/kunal_joshi"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Kunal Joshi"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Physical Logistics" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Dwarkadas J. Sanghvi College of Engineering" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/danesh_parwani"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Danesh Parwani"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="App Design and Development" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Thadomal Shahani Engineering College" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/pavan_nichani"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Pavan Nichani"
+                android:textColor="#290288"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="App Design and Development" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/img"
+                android:text="Thadomal Shahani Engineering College" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

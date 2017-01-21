@@ -1,20 +1,225 @@
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context="abyte.chemtech2017.ContactFragment">
 
-    <Button
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/map"/>
+
+
+        <ImageView
+            android:id="@+id/address_bar"
+            android:layout_below="@id/map"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#082e45"/>
+
+        <ImageButton
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/map"
+            android:layout_margin="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_directions_black_24dp"
+            android:background="@drawable/roundcorner"
+            android:id="@+id/location_link"
+            android:tint="#082e45" />
+
+        <TextView
+            android:id="@+id/address_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/map"
+            android:text="Bombay Exhibition Centre"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/address_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/address_line1"
+            android:text="NESCO, Goregaon East"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/address_line2"
+            android:text="Mumbai, Maharashtra 400063"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:textSize="17sp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address_bar"
+        android:layout_marginTop="10dp">
+            <RelativeLayout
+             android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/call_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_call_black_24dp"
+                    android:tint="#1a237e"
+                    android:background="@null"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/details"
+                    android:layout_toRightOf="@id/call_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7045392839"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_toRightOf="@id/call_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/details"
+                    android:text="Simran Vora"
+                    android:textSize="18sp"/>
+
+                <ImageButton
+                    android:id="@+id/message"
+                    android:layout_margin="20dp"
+                    android:layout_toRightOf="@id/details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_chat_black_24dp"
+                    android:tint="#1a237e"
+                    android:background="@null"
+                    android:paddingLeft="80dp"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_view_1"
+        android:layout_marginTop="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/call_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_call_black_24dp"
+                android:tint="#1a237e"
+                android:background="@null"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/details"
+                android:layout_toRightOf="@id/call_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7045605616"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_toRightOf="@id/call_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/details"
+                android:text="Dhawal Unune"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/message2"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@id/details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_chat_black_24dp"
+                android:tint="#1a237e"
+                android:background="@null"
+                android:paddingLeft="80dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_view_2"
+        android:layout_marginTop="1dp"
+        android:elevation="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/mail_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_email_black_24dp"
+                android:tint="#1a237e"
+                android:background="@null"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/details"
+                android:layout_toRightOf="@id/mail_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="info_sop@jasubhai.com"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_below="@id/card_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp">
+    <ImageButton
+        android:id="@+id/facebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contact"
-        android:padding="8dp"
-        android:textColor="#fff"
-        android:background="@color/colorPrimary"
-        android:textSize="28sp"
-        android:id="@+id/contact_button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:src="@drawable/ic_facebook_letter_logo"
+        android:tint="#1a237e"
+        android:background="@null"
+        android:layout_weight="1"/>
+
+    <ImageButton
+        android:id="@+id/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_instagram_symbol"
+        android:tint="#1a237e"
+        android:background="@null"
+        android:layout_weight="1"/>
+    </LinearLayout>
 
 </RelativeLayout>
+</ScrollView>

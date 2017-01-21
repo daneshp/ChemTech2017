@@ -23,5 +23,23 @@ Please note that in order to be eligible to participate in the Internship Initia
 
     <string name="about_text_para2">Student Outreach Program (SOP) is a one of a kind opportunity for young minds, pursuing the discipline of Chemical Engineering and other allied branches, to connect with stalwarts from their desired Fields that could possibly turn out to be a life changing experience. This is envisaged by conducting vivid events such as Icon Lectures, Poster Presentation, Prototype Exhibition and Internship Initiative.</string>
 
+    <string name="accommodation_para1">In order to confirm your booking for the accommodation, the students are required to send a Demand Draft of Rs. (250 * Number of days of accommodation required). The remaining cost has to be paid on day and in cash.</string>
+
+    <string name="accommodation_para2">We will not be accepting denominations of Rs. 2000 and/or old Rs. 500 and Rs. 1000 notes.</string>
+
+    <string name="accommodation_para3">The cost of accommodation is as follows:</string>
+
+    <string name="accommodation_para4">Boys (AC) : Rs. 500 per day per head</string>
+
+    <string name="accommodation_para5">Boys (Non AC) : Rs. 400 per day per head</string>
+
+    <string name="accommodation_para6">Boys (Non AC Economy) : Rs. 300 per day per head</string>
+
+    <string name="accommodation_para7">Girls (Non AC): Rs. 350 per day per head</string>
+
+    <string name="accommodation_para8">Accommodation will be provided for participants ONLY.</string>
+
+    <string name="accommodation_para9">In case of any queries, feel free to call us at:</string>
+
 
 </resources>
