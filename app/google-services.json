@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1041707602582",
+    "firebase_url": "https://chemtech2017-489be.firebaseio.com",
+    "project_id": "chemtech2017-489be",
+    "storage_bucket": "chemtech2017-489be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041707602582:android:e558a95c77f8082c",
+        "android_client_info": {
+          "package_name": "abyte.chemtech2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041707602582-lk3bd68equrnfopl0tkorptqd4vpnqim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwVLvTv-M7e-UsFVvimoKAA3HHdYYsHsc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

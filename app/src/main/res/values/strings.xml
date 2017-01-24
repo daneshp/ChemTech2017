@@ -20,26 +20,48 @@ Team Student Outreach Program ONLY serves as a link between the companies and th
 Please note that in order to be eligible to participate in the Internship Initiative, the students have to be registered in any of our other events (Prototype Exhibition, Poster Competition or Icon Lectures).</string>
 
     <string name="about_text_para_1">The ‘Study Circle Initiative’ was launched in the early 80’s with the aim to expose the students to the latest global trends in process engineering by the visionary, Mr Jasu Shah, Founder and Chairman, Jasubhai Media Pvt Ltd. It was later revised in 2011 to ‘Student Outreach Program (SOP)’ and its charter was revised to ‘Developing Future Leaders’. CHEMTECH will organise the third edition of SOP concurrently during CHEMTECH World Expo 2017 from February 14 to 17, 2017 at Bombay Exhibition Grounds, Goregaon (East), Mumbai, India. </string>
-
     <string name="about_text_para2">Student Outreach Program (SOP) is a one of a kind opportunity for young minds, pursuing the discipline of Chemical Engineering and other allied branches, to connect with stalwarts from their desired Fields that could possibly turn out to be a life changing experience. This is envisaged by conducting vivid events such as Icon Lectures, Poster Presentation, Prototype Exhibition and Internship Initiative.</string>
 
     <string name="accommodation_para1">In order to confirm your booking for the accommodation, the students are required to send a Demand Draft of Rs. (250 * Number of days of accommodation required). The remaining cost has to be paid on day and in cash.</string>
-
     <string name="accommodation_para2">We will not be accepting denominations of Rs. 2000 and/or old Rs. 500 and Rs. 1000 notes.</string>
-
     <string name="accommodation_para3">The cost of accommodation is as follows:</string>
-
     <string name="accommodation_para4">Boys (AC) : Rs. 500 per day per head</string>
-
     <string name="accommodation_para5">Boys (Non AC) : Rs. 400 per day per head</string>
-
     <string name="accommodation_para6">Boys (Non AC Economy) : Rs. 300 per day per head</string>
-
     <string name="accommodation_para7">Girls (Non AC): Rs. 350 per day per head</string>
-
     <string name="accommodation_para8">Accommodation will be provided for participants ONLY.</string>
-
     <string name="accommodation_para9">In case of any queries, feel free to call us at:</string>
+
+    <string name="icon_lecture_text_para1">With the core principles of leadership and innovation, Chemtech Student Outreach Program brings to you an event…</string>
+    <string name="icon_lecture_text_para2">The Poster Presentation competition will take place on 15th and 16th of February, 2017. The selected posters shall be judged by a panel over these two days, with prizes awarded to three winners and consolation prizes to two runners up.</string>
+
+    <string name="poster_presentation_text_para1">The Poster Presentation is a challenge for budding technologists to pour their ideas into a concise form that is both convincing and appealing. It gives students a platform to showcase your innovations  to the eminent people from the academia…</string>
+    <string name="poster_presentation_text_para2">The Poster Presentation competition will take place on 15th and 16th of February, 2017. The selected posters shall be judged by a panel over these two days, with prizes awarded to three winners and consolation prizes to two runners up.</string>
+    <string name="poster_presentation_text_para3">First Prize - Rs. 25,000</string>
+    <string name="poster_presentation_text_para4">Second Prize - Rs. 20,000 </string>
+    <string name="poster_presentation_text_para5">Third Prize - Rs. 15,000</string>
+    <string name="poster_presentation_text_para6">Consolation prize of Rs. 5,000 each for two teams.</string>
+
+
+    <string name="prototype_presen_text_para1">The Prototype Exhibition is based around creation of original technologies and displaying them in the form of working models. Through this event, we hope to bring together…</string>
+    <string name="prototype_presen_text_para2">The prototype exhibition gives you an opportunity to rub shoulders with giants of the chemical industry, who could become the key to taking your model from a mere prototype to an industrially applicable technology. The selected teams get to exhibit their models at the Chemtech Student Outreach Program from 14th February, 2017 to 16th February, 2017. The judging panel comprising industrialists and academic personalities will conduct a Question and Answer session with the students and prizes will be awarded to two teams.</string>
+    <string name="prototype_presen_text_para3">First Prize - Rs. 50,000</string>
+    <string name="prototype_presen_text_para4">Second Prize - Rs. 25,000</string>
+
+    <string name="drsg1">Dr Shubh Gautam, CEO, Srisol Group</string>
+    <string name="drsg2">He founded SRISOL Group in 1996. Under his leadership the SRISOL Group today is the world’s second largest group producing lining systems for the food and beverage industry and Market leader in India for Steel and coil coatings, Aerospace coatings and specialty chemicals.</string>
+
+    <string name="mrnr1">Mr Niladri Roy, Co-Founder , Thought Arbitrage Transformation</string>
+    <string name="mrnr2">His professional journey of two decades includes stints in Audit and Advisory, Leadership Development, Executive Education and Performance Improvement Consulting. Starting off as an auditor in PricewaterhouseCoopers, Mr Roy worked across multiple sectors in a period of six years which culminated in his appointment as the National Learning and Education Manager for the firm in India. He has spent 10 years with the Aditya Birla Group, as a Program Director in the Learning function and setting up and running the Performance Improvement Center of Expertise.</string>
+
+    <string name="mrrr1">Mr R Ramachandran, Director- Refineries, Bharat Petroleum Corporation Ltd</string>
+    <string name="mrrr2">He is the Director (Refineries) of Bharat Petroleum Corporation Limited (BPCL).  Prior to taking over as Director (Refineries) of BPCL, he was Managing Director of Bharat Oman Refineries Ltd (BORL), Bina.  Mr. Ramachandran has over 34 years of experience in Refinery Operations, Projects, Technical Services, Corporate Affairs, Project /Investments, SAP, etc.</string>
+
+    <string name="mrgc1">Mr Ganesh Chella, Vice Chairman and MD, Coaching Foundation of India</string>
+    <string name="mrgc2">He co_founded Coaching Foundation India Limited in 2006. As its Vice Chairman and Managing Director, he leads the organisation\'s pioneering efforts in popularizing Executive Coaching and its use for leader development in India in a culturally appropriate and contextually relevant manner.</string>
+
+    <string name="mrrs1">Mr Ramki Subramanian, Head, Business Development, RIL</string>
+    <string name="mrrs2">His passion is to build businesses based on commercialization of new technologies and has over 25 years of experience.  Prior to his current role at Reliance, he ran his own company (Lithe Power) .  Before Lithe Power, Ramki worked for over 15 years at Dow Chemical – both in the US and India.</string>
 
 
 </resources>

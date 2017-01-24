@@ -1,20 +1,381 @@
-<RelativeLayout
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="abyte.chemtech2017.SpeakerFragment">
+    tools:context="abyte.chemtech2017.DiscoverFragment"
+    >
 
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Speaker"
-        android:padding="8dp"
-        android:textColor="#fff"
-        android:background="@color/colorPrimary"
-        android:textSize="28sp"
-        android:id="@+id/speaker_button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:orientation="vertical">
 
-</RelativeLayout>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_toLeftOf="@+id/img"
+                    android:text="Dr. Shubh Gautam"
+                    android:textColor="#290288"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/shubh_gautam" />
+
+            </RelativeLayout>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:visibility="visible"
+                    android:background="@null"
+                    android:textColor="#290288"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/drsg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/drsg1"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/drsg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/drsg2"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:id="@+id/less"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Less"
+                    android:visibility="gone"
+                    android:background="@null"
+                    android:textColor="#290288"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_toLeftOf="@+id/img1"
+                        android:text="Mr. Niladri Roy"
+                        android:textColor="#290288"
+                        android:textSize="25sp" />
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/niladri__roy" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/more1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:visibility="visible"
+                    android:background="@null"
+                    android:textColor="#290288"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/mrnr1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mrnr1"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/mrnr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mrnr2"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:id="@+id/less1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Less"
+                    android:visibility="gone"
+                    android:background="@null"
+                    android:textColor="#290288"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_toLeftOf="@+id/img2"
+                        android:text="Mr. R Ramachandran"
+                        android:textColor="#290288"
+                        android:textSize="25sp" />
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/r_ramachandran" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/more2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:visibility="visible"
+                    android:background="@null"
+                    android:textColor="#290288"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/mrrr1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mrrr1"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/mrrr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mrrr2"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:id="@+id/less2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Less"
+                    android:visibility="gone"
+                    android:background="@null"
+                    android:textColor="#290288"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_toLeftOf="@+id/img3"
+                        android:text="Mr. Ganesh Chella"
+                        android:textColor="#290288"
+                        android:textSize="25sp" />
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ganesh_chella" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/more3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:visibility="visible"
+                    android:background="@null"
+                    android:textColor="#290288"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/mrgc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mrgc1"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/mrgc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mrgc2"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:id="@+id/less3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Less"
+                    android:visibility="gone"
+                    android:background="@null"
+                    android:textColor="#290288"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_toLeftOf="@+id/img4"
+                        android:text="Mr. Ramki Subramanian"
+                        android:textColor="#290288"
+                        android:textSize="25sp" />
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ramki_subramanian" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/more4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:visibility="visible"
+                    android:background="@null"
+                    android:textColor="#290288"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/mrrs1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mrrs1"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/mrrs2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mrrs2"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:id="@+id/less4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Less"
+                    android:visibility="gone"
+                    android:background="@null"
+                    android:textColor="#290288"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

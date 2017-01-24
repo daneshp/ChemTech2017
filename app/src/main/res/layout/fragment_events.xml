@@ -32,8 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         card_view:cardCornerRadius="4dp"
-        android:layout_margin="10dp"
-        android:src="@drawable/byte_logo">
+        android:layout_margin="10dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -49,8 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         card_view:cardCornerRadius="4dp"
-        android:layout_margin="10dp"
-        android:src="@drawable/byte_logo">
+        android:layout_margin="10dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -66,8 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         card_view:cardCornerRadius="4dp"
-        android:layout_margin="10dp"
-        android:src="@drawable/byte_logo">
+        android:layout_margin="10dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -83,8 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         card_view:cardCornerRadius="4dp"
-        android:layout_margin="10dp"
-        android:src="@drawable/byte_logo">
+        android:layout_margin="10dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -101,7 +97,7 @@
         android:layout_height="200dp"
         card_view:cardCornerRadius="4dp"
         android:layout_margin="10dp"
-        android:src="@drawable/byte_logo">
+>
 
         <ImageView
             android:layout_width="match_parent"
@@ -117,8 +113,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         card_view:cardCornerRadius="4dp"
-        android:layout_margin="10dp"
-        android:src="@drawable/byte_logo">
+        android:layout_margin="10dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -134,8 +129,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         card_view:cardCornerRadius="4dp"
-        android:layout_margin="10dp"
-        android:src="@drawable/byte_logo">
+        android:layout_margin="10dp">
 
         <ImageView
             android:layout_width="match_parent"

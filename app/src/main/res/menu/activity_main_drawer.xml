@@ -45,8 +45,8 @@
                 android:title="Concurrent Events" />
             <item
                 android:id="@+id/byte_logo"
-                android:icon="@drawable/byte_logo"
-                android:title="Byte ©"/>
+                android:title="Byte ©"
+                />
 
         </menu>
     </item>
