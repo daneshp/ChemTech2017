@@ -49,11 +49,11 @@
                 <Button
                     android:layout_gravity="center_horizontal"
                     android:id="@+id/more"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#EEEEEE"
                     android:layout_height="wrap_content"
                     android:text="More"
                     android:visibility="visible"
-                    android:background="@null"
                     android:textColor="#290288"/>
 
                 <TextView
@@ -122,11 +122,11 @@
                 <Button
                     android:layout_gravity="center_horizontal"
                     android:id="@+id/more1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#EEEEEE"
                     android:layout_height="wrap_content"
                     android:text="More"
                     android:visibility="visible"
-                    android:background="@null"
                     android:textColor="#290288"/>
 
                 <TextView
@@ -196,11 +196,11 @@
                 <Button
                     android:layout_gravity="center_horizontal"
                     android:id="@+id/more2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#EEEEEE"
                     android:layout_height="wrap_content"
                     android:text="More"
                     android:visibility="visible"
-                    android:background="@null"
                     android:textColor="#290288"/>
 
                 <TextView
@@ -269,11 +269,11 @@
                 <Button
                     android:layout_gravity="center_horizontal"
                     android:id="@+id/more3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#EEEEEE"
                     android:layout_height="wrap_content"
                     android:text="More"
                     android:visibility="visible"
-                    android:background="@null"
                     android:textColor="#290288"/>
 
                 <TextView
@@ -342,11 +342,11 @@
                 <Button
                     android:layout_gravity="center_horizontal"
                     android:id="@+id/more4"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#EEEEEE"
                     android:layout_height="wrap_content"
                     android:text="More"
                     android:visibility="visible"
-                    android:background="@null"
                     android:textColor="#290288"/>
 
                 <TextView

@@ -13,7 +13,7 @@
         <item
             android:id="@+id/nav_speaker"
             android:icon="@drawable/ic_record_voice_over_black_24dp"
-            android:title="Speaker" />
+            android:title="Speakers" />
 
         <item
             android:id="@+id/nav_intern"
@@ -28,7 +28,7 @@
         <item
             android:id="@+id/nav_sponsor"
             android:icon="@drawable/ic_people_black_24dp"
-            android:title="Sponsor" />
+            android:title="Sponsors" />
     </group>
 
     <item android:title="Inception">

@@ -8,16 +8,16 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="internship_text_para_1">The Internship Initiative is the flagship event of Chemtech Student Outreach Program. It aims to provide a direct platform for students and secure internships in the best companies of the country. The interviews will be conducted by the HRs of the company from 14th February to 17th February.</string>
+    <string name="internship_text_para_1">The Internship Initiative is the flagship event of Chemtech Student Outreach Program. It aims to provide a direct platform for students and secure internships in the best companies of the country. The interviews will be conducted by the company representative from 14th February to 17th February.</string>
 
-    <string name="internship_text_para_2">The Initiative will take place in two stages. In the first stage, the students will be requested to send their resumes which will be screened by the interviewing panel. The selected students will then be personally interviewed by the HRs.
+    <string name="internship_text_para_2">The Initiative will take place in two stages. In the first stage, the students will be requested to send their resumes which will be screened by the interviewing panel. The selected students will then be personally interviewed by the company representative.
 
 Team Student Outreach Program ONLY serves as a link between the companies and the students. Students are requested to read through the rules and regulations carefully before registering.
 </string>
 
     <string name="internship_text_para_3">Any last minute walk-ins shall not be tolerated.
 
-Please note that in order to be eligible to participate in the Internship Initiative, the students have to be registered in any of our other events (Prototype Exhibition, Poster Competition or Icon Lectures).</string>
+Please note that in order to be eligible to participate in the Internship Initiative, the student MUST BE A PARTICIPANT in any of our other events (Prototype Exhibition, Poster Competition or Icon Lectures).</string>
 
     <string name="about_text_para_1">The ‘Study Circle Initiative’ was launched in the early 80’s with the aim to expose the students to the latest global trends in process engineering by the visionary, Mr Jasu Shah, Founder and Chairman, Jasubhai Media Pvt Ltd. It was later revised in 2011 to ‘Student Outreach Program (SOP)’ and its charter was revised to ‘Developing Future Leaders’. CHEMTECH will organise the third edition of SOP concurrently during CHEMTECH World Expo 2017 from February 14 to 17, 2017 at Bombay Exhibition Grounds, Goregaon (East), Mumbai, India. </string>
     <string name="about_text_para2">Student Outreach Program (SOP) is a one of a kind opportunity for young minds, pursuing the discipline of Chemical Engineering and other allied branches, to connect with stalwarts from their desired Fields that could possibly turn out to be a life changing experience. This is envisaged by conducting vivid events such as Icon Lectures, Poster Presentation, Prototype Exhibition and Internship Initiative.</string>
@@ -33,7 +33,7 @@ Please note that in order to be eligible to participate in the Internship Initia
     <string name="accommodation_para9">In case of any queries, feel free to call us at:</string>
 
     <string name="icon_lecture_text_para1">With the core principles of leadership and innovation, Chemtech Student Outreach Program brings to you an event…</string>
-    <string name="icon_lecture_text_para2">The Poster Presentation competition will take place on 15th and 16th of February, 2017. The selected posters shall be judged by a panel over these two days, with prizes awarded to three winners and consolation prizes to two runners up.</string>
+    <string name="icon_lecture_text_para2">We present to you Icon Lectures 2017, an event that is aimed at providing a direct interface between you and the most inspirational people of the chemical industry. Hear it from the best, what it takes to reach the top and what is the future of chemical engineering. Remember, this is not just an event; it is an investment in you, by the industry.</string>
 
     <string name="poster_presentation_text_para1">The Poster Presentation is a challenge for budding technologists to pour their ideas into a concise form that is both convincing and appealing. It gives students a platform to showcase your innovations  to the eminent people from the academia…</string>
     <string name="poster_presentation_text_para2">The Poster Presentation competition will take place on 15th and 16th of February, 2017. The selected posters shall be judged by a panel over these two days, with prizes awarded to three winners and consolation prizes to two runners up.</string>
@@ -58,7 +58,7 @@ Please note that in order to be eligible to participate in the Internship Initia
     <string name="mrrr2">He is the Director (Refineries) of Bharat Petroleum Corporation Limited (BPCL).  Prior to taking over as Director (Refineries) of BPCL, he was Managing Director of Bharat Oman Refineries Ltd (BORL), Bina.  Mr. Ramachandran has over 34 years of experience in Refinery Operations, Projects, Technical Services, Corporate Affairs, Project /Investments, SAP, etc.</string>
 
     <string name="mrgc1">Mr Ganesh Chella, Vice Chairman and MD, Coaching Foundation of India</string>
-    <string name="mrgc2">He co_founded Coaching Foundation India Limited in 2006. As its Vice Chairman and Managing Director, he leads the organisation\'s pioneering efforts in popularizing Executive Coaching and its use for leader development in India in a culturally appropriate and contextually relevant manner.</string>
+    <string name="mrgc2">He co-founded Coaching Foundation India Limited in 2006. As its Vice Chairman and Managing Director, he leads the organisation\'s pioneering efforts in popularizing Executive Coaching and its use for leader development in India in a culturally appropriate and contextually relevant manner.</string>
 
     <string name="mrrs1">Mr Ramki Subramanian, Head, Business Development, RIL</string>
     <string name="mrrs2">His passion is to build businesses based on commercialization of new technologies and has over 25 years of experience.  Prior to his current role at Reliance, he ran his own company (Lithe Power) .  Before Lithe Power, Ramki worked for over 15 years at Dow Chemical – both in the US and India.</string>
